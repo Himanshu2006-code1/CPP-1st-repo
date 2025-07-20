@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
-
+int add(int a, int b){
+int c=a+b;
+return c;
+}
 int main(){
     int age = 22;
     float pi = 3.14;
